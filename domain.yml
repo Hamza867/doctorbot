@@ -1,0 +1,47 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - hero
+  - name
+  - feeling
+  - prob_time
+  - answer
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: Your AI Doctor, feel free to talk to me
+  utter_hero:
+  - text: May I now your name?
+  utter_fever:
+  - text: Do you have fever?
+  utter_sorethrot:
+  - text: problem of sore  throat
+  utter_cough:
+  - text: do you have cough ?
+  utter_vomit:
+  - text: any cases of vomit?
+  utter_fatigue:
+  - text: fatigue?
+  utter_runnynose:
+  - text: do you have runny nose?
+  utter_breathe:
+  - text: do you feel breathelessness?
+  utter_pain:
+  - text: do you have abdominal pain?
+  utter_rash:
+  - text: any cases of rashes or inflamation?
+  utter_goodbye:
+  - text: Ok I got your problem chotu, will see you soon, till then take care good bye.
+  - text: Good Bye!
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+
+actions:
+  - action_service
+  - action_save_conversation
+session_config:
+  session_expiration_time: 60.0
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,88 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: hero
+  examples: |
+    - I am not feeling good.
+    - i think am health is not good
+    - I don’t feel good.
+    - i am so week
+    - i am heart pationte.
+    - i am pationte of cancer
+    - pationte
+
+- intent: name
+  examples: |
+    - My name is Abhishek.
+    - I am Abhishek.
+    - Myself Abhishek.
+    - Abhishek
+    - I'm hamza
+    - my name ali.
+    - I'm abdullah
+    - i'm jon
+
+- intent: feeling
+  examples: |
+    - I am having fever.
+    - I am having cold.
+    - cough
+
+- intent: prob_time
+  examples: |
+    - for 2 days 
+    - since a week
+    - yesterday
+
+- intent: answer
+  examples: |
+    - yes
+    - no
+    - might be
+    - indeed
+    - of course
+    - correct
+    - yeah 
+    - not a problam
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not reall
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
